@@ -1,9 +1,9 @@
 //Length
-let fruits = ['Apple', 'Banana'];
+let fruits = ['Apple', 'Banana', 'kela'];
 /* console.log('Length', fruits.length); */
 
 //For Each: Loop over an Array, returns undefined
-/* const x = fruits.forEach(function (item, index, array) {
+/* const x = fruits.forEach(function (item, index) {
   console.log(item, index);
 }); */
 
@@ -42,3 +42,7 @@ console.log(shallowCopy, fruits); */
 const elements = ['Fire', 'Air', 'Water'];
 const newElement = elements.join();
 //console.log(newElement, typeof newElement, elements);
+
+//toString() method returns a string representing the specified array and its elements.
+const array1 = [1, 2, 'a', '1a'];
+//console.log(array1.toString(), typeof array1.toString());
