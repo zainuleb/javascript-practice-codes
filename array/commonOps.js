@@ -37,3 +37,8 @@ console.log(removedItem, fruits); */
 /* console.log('Original Array', fruits);
 let shallowCopy = fruits.slice(); // this is how to make a copy
 console.log(shallowCopy, fruits); */
+
+//Join: Joins elements of array into string
+const elements = ['Fire', 'Air', 'Water'];
+const newElement = elements.join();
+//console.log(newElement, typeof newElement, elements);
